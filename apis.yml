@@ -1,7 +1,23 @@
 aid: thorough
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thorough.png
 name: thorough
-description: thorough is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: thorough (透彻未来 / Thorough Future) is a China-based company surfaced as
+  a portfolio company of Qiming Venture Partners and added to the API Evangelist network
+  for enrichment. Its site at thorough.ai serves a Chinese-language single-page web
+  application over HTTP only (HTTPS is unreachable at the time of this pass) and exposes
+  no public API, developer portal, documentation, or machine-readable specification
+  surface. This profile remains a lead awaiting a public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/thorough/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- China
+- Startup
+- Qiming
+- Venture Backed
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +43,10 @@ maintainers:
 common:
 - type: Website
   url: https://thorough.ai
+- type: DomainSecurity
+  url: security/thorough-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
