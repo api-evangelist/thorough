@@ -42,13 +42,11 @@ modified: '2026-07-21'
 tags:
 - Company
 - China
-- Startups
 - Qiming
 - Venture Backed
 tags_raw:
 - Company
 - China
-- Startup
 - Qiming
 - Venture Backed
 apis: []
@@ -67,3 +65,7 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Startups
+x-company-stage: venture-backed
+x-company-stage-evidence: "own tags: Startup, Qiming, Venture Backed"
